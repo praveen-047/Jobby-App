@@ -1,0 +1,66 @@
+.header-container {
+  background-color: #272727;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.website-logo {
+  margin: 0px;
+  width: 50%;
+}
+.options-container {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+}
+.option-icon {
+  color: white;
+  font-size: 20px;
+  margin-left: 19px;
+}
+.options-container-li-options {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.large-options-container {
+  display: none;
+}
+.option-link {
+  text-decoration: none;
+  color: white;
+  margin-right: 10px;
+}
+@media screen and (min-width: 768px) {
+  .options-container {
+    display: none;
+  }
+  .logo-container {
+    width: 50%;
+  }
+  .website-logo {
+    margin: 0px;
+    width: 30%;
+  }
+  .large-options-container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .option-name {
+    display: flex;
+  }
+  .option-name p {
+    color: white;
+    margin-right: 10px;
+  }
+  .logout-btn {
+    background-color: #6366f1;
+    color: white;
+    padding: 10px 20px;
+    border-width: 0px;
+    border-radius: 5px;
+  }
+}

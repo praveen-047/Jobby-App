@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+h1,
+p {
+  color: white;
+  margin: 0px;
+  padding: 0px;
+}
+.job-card {
+  list-style-type: none;
+  margin: 5px 0px;
+  padding: 20px;
+  width: 100%;
+  background-color: #202020;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.job-card-link {
+  text-decoration: none;
+}
+.company-logo-and-rating {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.company-logo {
+  width: 50px;
+  margin-right: 10px;
+}
+.company-name {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+}
+.rating-container {
+  display: flex;
+  align-items: center;
+  margin-top: 7px;
+}
+#gold-star {
+  color: #fbbf24;
+  font-size: 16px;
+  margin-right: 5px;
+}
+.location-and-package {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.location-and-package div {
+  display: flex;
+}
+.location-type {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.location-type p {
+  font-size: 12px;
+}
+.location {
+  color: white;
+  margin-right: 3px;
+}
+.suitcase {
+  color: white;
+  margin-right: 3px;
+}
+.hr {
+  margin-top: 13px;
+  background-color: #64748b;
+  width: 100%;
+  color: white;
+}
+.desc-heading {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.desc-para {
+  font-size: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .job-card {
+    margin: 10px;
+    padding: 25px;
+    border-radius: 15px;
+  }
+  .company-logo {
+    width: 70px;
+    margin-right: 20px;
+  }
+  .company-name {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .location-type p {
+    font-size: 15px;
+  }
+  .location {
+    margin-right: 6px;
+  }
+  .suitcase {
+    margin-right: 6px;
+  }
+  .desc-heading {
+    font-size: 23px;
+    margin-bottom: 10px;
+  }
+  .desc-para {
+    font-size: 15px;
+  }
+}
